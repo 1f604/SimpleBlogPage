@@ -10,7 +10,7 @@ use MediaWiki\MediaWikiServices;
 
 require_once "lib/common.php";
 
-class ArticlesHome extends SpecialPage {
+class ArticlesHome extends IncludableSpecialPage {
 
 	/**
 	 * Constructor -- set up the new special page
