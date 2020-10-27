@@ -3,7 +3,6 @@
 
 wfLoadExtension( 'SimpleBlogPage' );
 
-$wgNamespacesWithSubpages[NS_BLOG] = true;
 $wgNamespacesWithSubpages[500] = true;
 $wgNamespacesWithSubpages[501] = true;
 
